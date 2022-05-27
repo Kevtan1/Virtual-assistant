@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Virtual assistant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--load in css/botui css-->
+    <link rel="stylesheet" href="build/botui.min.css" />
+    <link rel="stylesheet" href="build/botui-theme-default.css" />
+    <link rel="stylesheet" href="build/extrastyle.css" />
+    <!--load in the BotUI framework-->
+    <script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
+    <script src="build/botui.min.js"></script>
+</head>
+
+<body>
+
+    <div class="spannerd-overlay">
+        <span style="background-color:#6300a7 ;" class="spannerd"><a style="text-decoration: none; color: white" target="_blank" href="https://www.greenhousegroup.com/en">Check out Greenhouse!</a></span>
+    </div>
+
+        <!--background-image that scales in width-->
+        <div class="computeroverlay">
+        </div>
+
+    <div class="botui-app-container"   id="fastpass">
+        <bot-ui></bot-ui>
+    </div>
+
+    <!--load in JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <!--load in fastpass.js, the full conversation is in here-->
+    <script src="fastpass.js"></script>
+
+
+</body>
